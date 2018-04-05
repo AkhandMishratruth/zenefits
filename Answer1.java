@@ -16,7 +16,7 @@ class Answer1{
             System.out.println(st);
             return;
         }
-        String[] ar = st.substring(1, st.length()-1).split(",");
+        String[] ar = st.substring(1, st.length()-1).split(", ");
         //System.out.println(st);
         fun(ar[1]);
         fun(ar[0]);
